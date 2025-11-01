@@ -1,0 +1,168 @@
+/* ========== General Layout ========== */
+body {
+  margin: 0;
+  font-family: "Roboto Serif", serif;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* ========== Header ========== */
+header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: gold;
+}
+
+nav a {
+  color: #ffdf80;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #fff;
+}
+
+/* ========== Intro Section ========== */
+.intro {
+  padding: 100px 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+.intro h2 {
+  font-size: 5rem;
+  color: #ffdf80;
+}
+.intro p {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* ========== Planet Section ========== */
+.planet-section {
+  padding: 80px 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.planet-section h2 {
+  font-size: 2.5rem;
+  color: #ffdf80;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#planets-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.planet {
+  width: 180px;
+  min-height: 260px; /* 保证所有卡片高度一致 */
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.planet:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px gold;
+}
+
+.planet img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* ========== About Section ========== */
+.about {
+  padding: 100px 20px;
+  text-align: center;
+}
+.about h2 {
+  font-size: 2.5rem;
+  color: #ffdf80;
+}
+.about p {
+  font-size: 1.5rem;
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.7;
+}
+
+.gallery-section {
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  background: radial-gradient(ellipse at bottom, #0d1b2a 0%, #000 100%);
+}
+
+.gallery-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.gallery-section p {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+  color: #b0c7e0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* ========== Footer ========== */
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+
