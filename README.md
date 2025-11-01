@@ -42,8 +42,8 @@ Option 2: View Online
 
 ## 💫 Author
 
-**Author** : melisa19
+**Author** : melisa-2003
 
-**GitHub** : @melisa19
+**GitHub** : @melisa-2003
 
 **Contact** : melisa03wanjiun@gmail.com
