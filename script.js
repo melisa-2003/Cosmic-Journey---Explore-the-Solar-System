@@ -1,4 +1,4 @@
-// ========== 🌌 Random Space Background ==========
+// ========== Random Space Background ==========
 const backgrounds = [
   "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80",
   "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
@@ -6,7 +6,7 @@ const backgrounds = [
 ];
 document.body.style.backgroundImage = `url(${backgrounds[Math.floor(Math.random() * backgrounds.length)]})`;
 
-// ========== 🪐 Planet Data ==========
+// ========== Planet Data ==========
 const planets = [
   { name: "Mercury", fact: "The smallest planet, closest to the Sun.", img: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" },
   { name: "Venus", fact: "Hottest planet with thick clouds of acid.", img: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" },
@@ -20,7 +20,6 @@ const planets = [
 
 const container = document.getElementById("planets-container");
 
-// 创建行星卡片
 planets.forEach(p => {
   const div = document.createElement("div");
   div.className = "planet";
