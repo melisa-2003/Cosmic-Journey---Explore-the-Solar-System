@@ -77,7 +77,7 @@ nav a:hover {
 
 .planet {
   width: 180px;
-  min-height: 260px; /* 保证所有卡片高度一致 */
+  min-height: 260px; 
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
@@ -114,6 +114,7 @@ nav a:hover {
   line-height: 1.7;
 }
 
+/* ========== Gallery Section ========== */
 .gallery-section {
   text-align: center;
   padding: 100px 20px;
