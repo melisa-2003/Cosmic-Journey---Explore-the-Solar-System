@@ -33,7 +33,6 @@ const planets = {
   }
 };
 
-// 从网址参数中获取行星名称
 const params = new URLSearchParams(window.location.search);
 const planetName = params.get("name");
 
