@@ -22,7 +22,8 @@ This project allows users to click on planets to view detailed information and i
 | **Unsplash API (static links)** | Provides realistic space imagery |
 
 ## 🗂️ Project Structure
-<img width="616" height="553" alt="image" src="https://github.com/user-attachments/assets/8b24017b-12d1-445c-9d61-9cb7d4d6a96f" />
+<img width="661" height="418" alt="image" src="https://github.com/user-attachments/assets/c0415f50-4523-48f6-a449-be5715b32a21" />
+
 
 ## ⚙️ How to Run
 Option 1:  Run locally
